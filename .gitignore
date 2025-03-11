@@ -1,0 +1,44 @@
+# Ignorar arquivos compilados
+*.class
+
+# Ignorar diretórios de build e saída
+bin/
+build/
+dist/
+
+# Ignorar arquivos do NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Ignorar bibliotecas baixadas
+lib/
+
+# Ignorar arquivos do IntelliJ IDEA
+.idea/
+*.iml
+
+# Ignorar arquivos do Eclipse
+.settings/
+.project
+.classpath
+
+# Ignorar dependências baixadas pelo Maven e Gradle
+.mvn/
+target/
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+
+# Ignorar arquivos do VS Code
+.vscode/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+.DS_Store
